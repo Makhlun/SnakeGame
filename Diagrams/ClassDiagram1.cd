@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Snake_v._0._0.MainWindow">
+    <Position X="5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAABAAADAwACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Snake_v._0._0.Direction" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAIAAAAAAAAAgAAAAAAAAAAAAIAACACAAAEAAiI=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.GameState" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Interface Name="Snake_v._0._0.GameState.IFoodStrategy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Class Name="Snake_v._0._0.GameState.FoodStrategy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Snake_v._0._0.GameState.ToxicFoodStrategy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQIIggACAIAAAUgAAmAAAAABAIAgCDAAAAQRUAgAEEA=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Images" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIARAEJAIAAAIBAggIBCAEAAAAACABAAQAAigAAAAA=</HashCode>
+      <FileName>Images.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level" Collapsed="true">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAkAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level1" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level2" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level3" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level4" Collapsed="true">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Level5" Collapsed="true">
+    <Position X="7.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.GameOverState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.GamePause" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.GameActive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.GameStart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.PlayWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAByAAwAICAAAkAgEYDSAAAABAGAIABMAAQgAABAggA=</HashCode>
+      <FileName>PlayWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.Position" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgABAAAAAAAAAAoAAAAAEAAAAAiA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.Invoker" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAACAAQAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>SaveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.SaveCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaveCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.RestoreCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaveCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.SaveMemento" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAAAAAAAABgAAAAAAAIAA=</HashCode>
+      <FileName>SaveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.CreateMemento">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>SaveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.SettingsPrototype" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>SettingsPrototype.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.Settings" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAAAAAAAAAAAAABACAAAAAAAAAAAABA=</HashCode>
+      <FileName>SettingsPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.SettingsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAQAAKAAAAAAAAgAAAAAABAAAAAIIIAIABAgAAAQ=</HashCode>
+      <FileName>SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.SnakeColorFactory" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.YellowSnakeFactory" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.GreenSnakeFactory" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.PurpleSnakeFactory" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.CyanSnakeFactory" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Snake_v._0._0.YellowSnake" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAIAAAAABAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.GreenSnake" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAIAAAAABAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.PurpleSnake" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAIAAAAABAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Snake_v._0._0.CyanSnake" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAIAAAAABAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Snake_v._0._0.IPlayingState" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAFAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Snake_v._0._0.ICommand" Collapsed="true">
+    <Position X="20.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SaveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Snake_v._0._0.IClonable" Collapsed="true">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SettingsPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Snake_v._0._0.ISnakeColorFactory" Collapsed="true">
+    <Position X="24.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAIAAAAABAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SnakeColorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Snake_v._0._0.GridValue" Collapsed="true">
+    <Position X="20.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAAAAAAIAAAAAAAAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>GridValue.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Snake_v._0._0.PlayState" Collapsed="true">
+    <Position X="22.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAACAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayingState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Snake_v._0._0.GridSize" Collapsed="true">
+    <Position X="19" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SettingsPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Snake_v._0._0.SnakeColor" Collapsed="true">
+    <Position X="24.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>SettingsPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
